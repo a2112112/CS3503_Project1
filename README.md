@@ -19,10 +19,13 @@ A copy of the repository can be downloaded from GitHub.
 Player 1 controls the black pieces, while Player 2 controls the white pieces.
 To move a piece, input a move in this format: (col_from)(row_from) (col_to)(row_to) 
 An example of movement: B2 C3
+
 If the specified movement is not legal, the same player will be prompted to input a move direction again.
 Opponent pieces can be jumped over (if possible), which will remove that piece from the game.
-Have a piece reach the opponent's row for it to be promoted to king, having the abilit to move forward and backwards
+Have a piece reach the opponent's row for it to be promoted to king, having the abilit to move forward and backwards.
+
 If a player runs out of pieces, the other player wins the game.
+To exit the game at any time, type -1 in the input window.
  
 ## Project Results
 This was definitely a difficult task for me to figure out, but I think the end result is quite nice. The game includes game logic such as move legality checks, piece movement, piece capturing, king promotion/movement, 2-player versus, and win condition. 
